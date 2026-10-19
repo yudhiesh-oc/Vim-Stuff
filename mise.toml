@@ -34,6 +34,7 @@ builtin = "tool-update"
 "datadog-labs/pack" = "https://github.com/datadog-labs/homebrew-pack.git"
 "schpet/tap" = "https://github.com/schpet/homebrew-tap.git"
 "yudhiesh-oc/outline-cli" = "https://github.com/yudhiesh-oc/homebrew-outline-cli.git"
+"y3owk1n/tap" = "https://github.com/y3owk1n/homebrew-tap.git"
 
 [bootstrap.packages]
 "brew:aws-vault" = "latest"
@@ -70,6 +71,7 @@ builtin = "tool-update"
 "brew:yudhiesh-oc/outline-cli/outline-cli" = "latest"
 "brew:agavra/tap/tuicr" = "latest"
 "brew-cask:kitty" = { os = "macos" }
+"brew-cask:y3owk1n/tap/neru" = { os = "macos" }
 "brew-cask:betterdisplay" = { os = "macos" }
 "brew-cask:dbeaver-community" = { os = "macos" }
 "brew-cask:font-iosevka" = { os = "macos" }
