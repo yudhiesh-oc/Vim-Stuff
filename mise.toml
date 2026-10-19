@@ -70,6 +70,7 @@ builtin = "tool-update"
 "brew:yudhiesh-oc/outline-cli/outline-cli" = "latest"
 "brew:agavra/tap/tuicr" = "latest"
 "brew-cask:kitty" = { os = "macos" }
+"macos-app:neru" = { version = "1.58.0", url = "https://github.com/y3owk1n/neru/releases/download/v{{version}}/neru-darwin-arm64.zip", sha256 = "30baeaddaa5e7c4355392f971c863b8ab928e84e7be002cea84493bca2671e67", artifact = "Neru.app", os = "macos/arm64" }
 "brew-cask:betterdisplay" = { os = "macos" }
 "brew-cask:dbeaver-community" = { os = "macos" }
 "brew-cask:font-iosevka" = { os = "macos" }
@@ -111,7 +112,6 @@ choose = "latest"
 yazi = "latest"
 
 "aqua:earendil-works/pi" = { version = "latest", auto_update = true }
-"github:y3owk1n/neru" = { version = "latest", auto_update = true }
 
 opentofu = "1.10.6"
 terraform = "1.10"
